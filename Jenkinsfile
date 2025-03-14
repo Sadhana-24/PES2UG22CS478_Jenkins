@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Build') {
+        stage('Build) {
             steps {
                 echo 'Building the C++ application...'
                 sh 'g++ -o PES2UG22CS478-1 main/hello.cpp'
